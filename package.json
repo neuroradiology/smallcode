@@ -1,6 +1,6 @@
 {
   "name": "smallcode",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "AI coding agent optimized for small LLMs (≤20B parameters)",
   "bin": {
     "smallcode": "bin/smallcode.js"
@@ -10,8 +10,7 @@
     "start": "node bin/smallcode.js",
     "dev": "node bin/smallcode.js",
     "eval": "node bin/smallcode.js --eval classify_accuracy",
-    "mcp": "node bin/smallcode.js --mcp",
-    "postinstall": "npx playwright install chromium --with-deps 2>/dev/null || true"
+    "mcp": "node bin/smallcode.js --mcp"
   },
   "dependencies": {
     "bonescript-compiler": "^0.14.0",
