@@ -3,7 +3,7 @@
   "version": "0.3.0",
   "description": "AI coding agent optimized for small LLMs (≤20B parameters)",
   "bin": {
-    "smallcode": "./bin/smallcode.js"
+    "smallcode": "bin/smallcode.js"
   },
   "scripts": {
     "build": "node build.js",
