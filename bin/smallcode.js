@@ -423,7 +423,6 @@ async function runTUI(config) {
     // Enter fullscreen FIRST (captures real stdout.write as _rawWrite)
     screen.enter();
     _fullscreenRef = screen;
-    screen.addChat('system', `⚡ SmallCode v${VERSION} | ${config.model.name} | ${graphOk ? 'graph ✓' : 'graph disabled'}`);
 
     // Track current tool name for pairing stdout.write (tool start) with console.log (result)
     let _currentToolName = '';
